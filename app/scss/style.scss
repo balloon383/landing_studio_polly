@@ -1,4 +1,20 @@
+@import "reset";
 @import "variables";
 body{
     font-family: 'DM Sans', sans-serif;
+}
+button, a{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+svg{
+    width: 32px;
+    height: 32px;
+}
+.content__container{
+    width: 1376px;
+    margin: 0 auto;
+
 }
