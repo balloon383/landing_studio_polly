@@ -18,3 +18,409 @@ svg{
     margin: 0 auto;
 
 }
+
+/* start */
+.header {
+
+    // .header__container
+    border-bottom: 1px solid black;
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 0px;
+    }
+
+    // .header__logo
+
+    &__logo {
+        text-transform: uppercase;
+        color: #000;
+    }
+
+    // .header__nav
+
+    &__nav {
+        padding: 15px 0;
+    }
+
+    // .header__ul
+
+    &__ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        column-gap: 105px;
+    }
+
+    // .header__li
+
+    &__li a{
+        color: #000;
+        text-transform: uppercase;
+    }
+
+    // .header__ul--second
+
+    &__ul--second {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        column-gap: 32px;
+    }
+
+    // .header__li--second
+
+    &__li--second {}
+
+    // .header__svg
+    &__button{
+        background: none;
+        border: none;
+        font-family: 'DM Sans', sans-serif;
+        padding: 5px;
+        text-transform: uppercase;
+
+    }
+    &__svg {
+        width: 35px;
+        height: 32px;
+    }
+}
+
+.content {
+
+    // .content__container
+
+    &__container {
+        width: 1376px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+}
+
+.main {}
+
+.title {
+
+    // .title__box
+    &__container{
+        background-image: url("../images/hero.png");
+        background-repeat: no-repeat;
+    }
+    &__box {}
+
+    // .title__header
+
+    &__header {}
+
+    // .title__button
+
+    &__button {}
+
+    // .title__anchor
+
+    &__anchor {}
+
+    // .title__text
+
+    &__text {}
+}
+
+.bestsellers {
+
+    // .bestsellers__box
+
+    &__box {}
+
+    // .bestsellers__our
+
+    &__our {}
+
+    // .bestsellers__svg
+
+    &__svg {}
+
+    // .bestsellers__subcontainer
+
+    &__subcontainer {}
+
+    // .bestsellers__card
+
+    &__card {}
+
+    // .bestsellers__img
+
+    &__img {}
+
+    // .bestsellers__name
+
+    &__name {}
+
+    // .bestsellers__price
+
+    &__price {}
+
+    // .bestsellers__price--new
+
+    &__price--new {}
+}
+
+.poster {
+
+    // .poster__box
+
+    &__box {}
+
+    // .poster__container
+
+    &__container {}
+
+    // .poster__ul
+
+    &__ul {}
+
+    // .poster__li
+
+    &__li {}
+
+    // .poster__svg
+
+    &__svg {}
+
+    // .poster__li--text
+
+    &__li--text {}
+}
+
+.category {
+
+    // .category__box
+
+    &__box {}
+
+    // .category__card
+
+    &__card {}
+
+    // .category__text
+
+    &__text {}
+}
+
+.kits {
+
+    // .kits__box
+
+    &__box {}
+
+    // .kits__container
+
+    &__container {}
+
+    // .kits__subcontainer
+
+    &__subcontainer {}
+
+    // .kits__header
+
+    &__header {}
+
+    // .kits__text
+
+    &__text {}
+
+    // .kits__ul
+
+    &__ul {}
+
+    // .kits__li
+
+    &__li {}
+
+    // .kits__button
+
+    &__button {}
+
+    // .kits__subcontainer--second
+
+    &__subcontainer--second {}
+}
+
+.amenities {
+
+    // .amenities__box
+
+    &__box {}
+
+    // .amenities__container
+
+    &__container {}
+
+    // .amenities__card
+
+    &__card {}
+
+    // .amenities__svg
+
+    &__svg {}
+
+    // .amenities__header
+
+    &__header {}
+
+    // .amenities__text
+
+    &__text {}
+}
+
+.responses {
+
+    // .responses__box
+
+    &__box {}
+
+    // .responses__container
+
+    &__container {}
+
+    // .responses__card
+
+    &__card {}
+
+    // .responses__text
+
+    &__text {}
+
+    // .responses__name
+
+    &__name {}
+}
+
+.articles {
+
+    // .articles__box
+
+    &__box {}
+
+    // .articles__container
+
+    &__container {}
+
+    // .articles__card
+
+    &__card {}
+
+    // .articles__text
+
+    &__text {}
+}
+
+.contact {
+
+    // .contact__box
+
+    &__box {}
+
+    // .contact__container
+
+    &__container {}
+
+    // .contact__subcontainer
+
+    &__subcontainer {}
+
+    // .contact__collection
+
+    &__collection {}
+
+    // .contact__date
+
+    &__date {}
+
+    // .contact__subcontainer--second
+
+    &__subcontainer--second {}
+
+    // .contact__header
+
+    &__header {}
+
+    // .contact__text
+
+    &__text {}
+
+    // .contact__input
+
+    &__input {}
+
+    // .contact__button
+
+    &__button {}
+}
+
+.behind {
+
+    // .behind__box
+
+    &__box {}
+
+    // .behind__header
+
+    &__header {}
+
+    // .behind__link
+
+    &__link {}
+
+    // .behind__ul
+
+    &__ul {}
+
+    // .behind__li
+
+    &__li {}
+}
+
+.footer {
+
+    // .footer__header
+
+    &__header {}
+
+    // .footer__subcontainer
+
+    &__subcontainer {}
+
+    // .footer__card
+
+    &__card {}
+
+    // .footer__input
+
+    &__input {}
+
+    // .footer__button
+
+    &__button {}
+
+    // .footer__home
+
+    &__home {}
+
+    // .footer__li
+
+    &__li {}
+
+    // .footer__about
+
+    &__about {}
+
+    // .footer__style
+
+    &__style {}
+
+    // .footer__ul
+
+    &__ul {}
+}
