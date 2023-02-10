@@ -502,6 +502,8 @@ svg{
     &__box {
         background-color: $yellow-bg;
         padding: 75px 0px;
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
     }
 
     // .responses__container
@@ -543,19 +545,41 @@ svg{
 
     // .articles__box
 
-    &__box {}
+    &__box {
+        padding: 160px 0px;
+    }
 
     // .articles__container
 
-    &__container {}
-
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__header{
+        font-size: 128px;
+        line-height: 128px;
+        text-transform: uppercase;
+        margin-bottom: 32px;
+        text-align: center;
+    }
     // .articles__card
 
-    &__card {}
+    &__card {
+        background-color: $violet-bg;
+        border-radius: 20px;
+        border: 1px solid black;
+    }
 
     // .articles__text
 
-    &__text {}
+    &__text {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 20px;
+        line-height: 22px;
+        padding: 18px;
+    }
 }
 
 .contact {
