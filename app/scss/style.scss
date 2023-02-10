@@ -499,23 +499,44 @@ svg{
 
     // .responses__box
 
-    &__box {}
+    &__box {
+        background-color: $yellow-bg;
+        padding: 75px 0px;
+    }
 
     // .responses__container
 
-    &__container {}
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        column-gap: 50px;
+    }
 
     // .responses__card
 
-    &__card {}
+    &__card {
+        flex: 1 1 33%;
+        text-align: center;
+    }
 
     // .responses__text
 
-    &__text {}
+    &__text {
+        font-size: 17px;
+        line-height: 25px;
+        margin-bottom: 25px;
+    }
 
     // .responses__name
 
-    &__name {}
+    &__name {
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: 0.48px;
+        text-transform: uppercase;
+    }
 }
 
 .articles {
