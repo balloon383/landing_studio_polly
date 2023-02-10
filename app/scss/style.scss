@@ -277,7 +277,9 @@ svg{
 
     // .poster__box
 
-    &__box {}
+    &__box {
+        padding: 160px 0px;
+    }
 
     // .poster__container
 
@@ -285,34 +287,73 @@ svg{
 
     // .poster__ul
 
-    &__ul {}
+    &__ul {
+        display: flex;
+        justify-content: start;
+        overflow: hidden;
+        margin: 0px -35px 64px;
+    }
+    &__ul--second    {
+        justify-content: end;
+    }
 
     // .poster__li
 
-    &__li {}
+    &__li {
+        display: flex;
+        align-items: center;
+        flex: 1 1 33%;
+    }
 
     // .poster__svg
 
-    &__svg {}
+    &__svg {
+        width: 108px;
+        height: 108px;
+    }
 
     // .poster__li--text
 
-    &__li--text {}
+    &__li--text {
+        text-transform: uppercase;
+        font-size:127px;
+        line-height: 128px;
+    }
 }
 
 .category {
 
     // .category__box
-
-    &__box {}
-
+    &__container{
+        display: flex;
+        justify-content: space-between;
+        column-gap: 33px;
+    }
+    &__box {
+        padding: 30px 0px;
+    }
+    &__header{
+        font-size: 48px;
+        line-height: 53px;
+        text-transform: uppercase;
+        margin-bottom: 60px;
+    }
     // .category__card
 
-    &__card {}
-
+    &__card {
+        flex: 1 1 33%;
+        text-align: center;
+        text-transform: uppercase;
+        background: $violet-bg;
+    }
+    &__image{
+        object-fit: cover;
+    }
     // .category__text
 
-    &__text {}
+    &__text {
+        padding: 48px 0px;
+    }
 }
 
 .kits {
