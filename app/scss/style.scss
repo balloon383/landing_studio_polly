@@ -105,65 +105,172 @@ svg{
 
     // .title__box
     &__container{
+        
+    }
+    &__background{
         background-image: url("../images/hero.png");
         background-repeat: no-repeat;
+        border-radius: 12px;
+        margin-bottom: 150px;
+        position: relative;
     }
-    &__box {}
+    &__box {
+        padding-top: 76px;
+        padding-bottom: 160px;
+    }
 
     // .title__header
 
-    &__header {}
+    &__header {
+        font-size: 96px;
+        line-height: 106px;
+        text-transform: uppercase;
+        color: #fff;
+        padding: 65px 0px 250px 65px;
+    }
 
     // .title__button
 
-    &__button {}
+    &__button {
+        background-color: $yellow-bg;
+        border-radius: 26px;
+        border: 1px solid black;
+        padding: 16px 33px;
+        margin-left: 65px;
+        margin-bottom: 65px;
+        text-transform: uppercase;
+    }
 
     // .title__anchor
 
-    &__anchor {}
+    &__anchor {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        transform: translate(-100px, 40px);
+        width: 128px;
+        height: 128px;
+        border: 1px solid black;
+        border-radius: 50%;
+        background-color: $gray-bg;
+        &::before{
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            transform: translate(61px, 25px);
+            width: 1px;
+            height: 72px;
+            border-right: 3px solid black;
+        }
+        &::after{
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            transform: translate(56px, 83px) rotate(45deg);
+            width: 12px;
+            height: 12px;
+            border-bottom: 3px solid black;
+            border-right: 3px solid black;
+        }
+    }
 
     // .title__text
 
-    &__text {}
+    &__text {
+        font-weight: 400;
+            font-size: 72px;
+            line-height: 83px;
+            color: #111010;
+    }
 }
 
 .bestsellers {
 
     // .bestsellers__box
 
-    &__box {}
+    &__box {
+        background-color: $gray-bg;
+        padding: 80px 0px 140px;
+    }
 
     // .bestsellers__our
 
-    &__our {}
+    &__our {
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 53px;
+        text-transform: uppercase;
+        color: #111010;
+    }
 
     // .bestsellers__svg
 
-    &__svg {}
+    &__svg {
+        width: 120px;
+        height: 130px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        transform: translate(25px, 150px) ;
+
+    }
 
     // .bestsellers__subcontainer
 
-    &__subcontainer {}
+    &__subcontainer {
+        display: flex;
+        justify-content: space-between;
+        column-gap: 32px;
+    }
 
     // .bestsellers__card
 
-    &__card {}
+    &__card {
+        position: relative;
+    }
 
     // .bestsellers__img
 
-    &__img {}
+    &__img {
+        border-radius: 40% 40% 0px 0px;
+    }
 
     // .bestsellers__name
 
-    &__name {}
+    &__name {
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+        text-transform: uppercase;
+    }
 
     // .bestsellers__price
 
-    &__price {}
+    &__price {
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        text-transform: uppercase;
+    }
 
     // .bestsellers__price--new
 
-    &__price--new {}
+    &__price--old {
+        position: relative;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        text-transform: uppercase;
+        opacity: .7;
+        &::before{
+            content: '';
+            position: absolute;
+            width: 100px;
+            height: 1px;
+        }
+    }
 }
 
 .poster {
