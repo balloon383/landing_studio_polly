@@ -720,42 +720,98 @@ svg{
 .footer {
 
     // .footer__header
-
-    &__header {}
+    background: $violet-bg;
+    border-top: 1px solid black;
+    padding: 60px 0px;
+    &__header {
+        text-align: center;
+        font-weight: 700;
+        font-size: 190px;
+        text-transform: uppercase;
+        margin-bottom: 65px;
+    }
 
     // .footer__subcontainer
 
-    &__subcontainer {}
-
+    &__subcontainer {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__header--discount{
+        font-size: 27px;
+        line-height: 30px;
+        text-transform: uppercase;
+        margin-bottom: 25px;
+    }
     // .footer__card
-
+    &__form{
+        position: relative;
+    }
     &__card {}
 
     // .footer__input
 
-    &__input {}
+    &__input {
+        border-radius: 20px;
+        border: 1px solid black;
+        padding: 20px 100px 20px 27px;
+    }
 
     // .footer__button
 
-    &__button {}
+    &__button {
+        position: absolute;
+        right: 0;
+        top: 0;
+        transform: translate(-50px, -4px);
+        border-radius: 80px;
+        background-color: $yellow-bg;
+        padding: 24px 35px;
+        border: 1px solid black;
+    }
+
 
     // .footer__home
 
-    &__home {}
+    &__home {
+        text-transform: uppercase;
+        line-height: 24px;
+    }
 
     // .footer__li
 
-    &__li {}
+    &__li {
+        margin-bottom: 16px;
+        & a{
+            color: black;
+        }
+    }
+    
 
     // .footer__about
 
-    &__about {}
+    &__about {
+        text-transform: uppercase;
+        line-height: 24px;
+    }
 
     // .footer__style
 
-    &__style {}
+    &__style {
+        text-transform: uppercase;
+        line-height: 24px;
+    }
 
     // .footer__ul
 
-    &__ul {}
+    &__ul {
+        display: flex;
+        justify-content: end;
+        column-gap: 30px;
+    }
+    &__sc{
+        display: block;
+        width: 32px;
+        height: 32px;
+    }
 }
