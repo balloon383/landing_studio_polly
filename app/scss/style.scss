@@ -555,6 +555,7 @@ svg{
         display: flex;
         justify-content: space-between;
         align-items: center;
+        column-gap: 33px;
     }
     &__header{
         font-size: 128px;
@@ -569,6 +570,7 @@ svg{
         background-color: $violet-bg;
         border-radius: 20px;
         border: 1px solid black;
+        flex: 1 1 33%;
     }
 
     // .articles__text
@@ -586,35 +588,65 @@ svg{
 
     // .contact__box
 
-    &__box {}
+    &__box {
+        padding: 80px 0px;
+        background-color: $gray-bg;
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
+    }
 
     // .contact__container
 
-    &__container {}
+    &__container {
+        display: flex;
+        justify-content: space-between;
+    }
 
     // .contact__subcontainer
 
-    &__subcontainer {}
+    &__subcontainer {
+        flex: 1 1 50%;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 100px;
+    }
 
     // .contact__collection
 
-    &__collection {}
+    &__collection {
+        font-size: 40px;
+        line-height: 44px;
+        margin-bottom: 40px;
+    }
 
     // .contact__date
 
-    &__date {}
+    &__date {
+        font-size: 40px;
+        line-height: 44px;
+    }
 
     // .contact__subcontainer--second
 
-    &__subcontainer--second {}
+    &__subcontainer--second {
+    }
 
     // .contact__header
 
-    &__header {}
+    &__header {
+        font-size: 48px;
+        line-height: 53px;
+        text-transform: uppercase;
+        margin-bottom: 25px;
+    }
+
 
     // .contact__text
 
-    &__text {}
+    &__text {
+        
+        margin-bottom: 30px;
+    }
 
     // .contact__input
 
