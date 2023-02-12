@@ -647,14 +647,30 @@ svg{
         
         margin-bottom: 30px;
     }
+    &__form{
+        position: relative;
 
+    }
     // .contact__input
 
-    &__input {}
+    &__input {
+        border-radius: 20px;
+        border: 1px solid black;
+        padding: 20px 100px 20px 27px;
+    }
 
     // .contact__button
 
-    &__button {}
+    &__button {
+        position: absolute;
+        right: 0;
+        top: 0;
+        transform: translate(-50px, -4px);
+        border-radius: 80px;
+        background-color:$yellow-bg;
+        padding: 24px 35px;
+        border: 1px solid black;
+    }
 }
 
 .behind {
