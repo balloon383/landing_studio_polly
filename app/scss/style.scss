@@ -676,24 +676,45 @@ svg{
 .behind {
 
     // .behind__box
-
-    &__box {}
+    &__container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 60px;
+    }
+    &__box {
+        padding: 160px 0px 80px;
+    }
 
     // .behind__header
 
-    &__header {}
+    &__header {
+        font-size: 48px;
+        line-height: 53px;
+        text-transform: uppercase;
+    }
 
     // .behind__link
 
-    &__link {}
+    &__link {
+        font-size: 20px;
+        line-height: 30px;
+        text-transform: uppercase;
+    }
 
     // .behind__ul
 
-    &__ul {}
+    &__ul {
+        display: flex;
+        justify-content: space-between;
+        column-gap: 40px;
+        position: relative;
+    }
 
     // .behind__li
-
-    &__li {}
+    &__li--lower{
+        margin-top: 70px;
+    }
 }
 
 .footer {
